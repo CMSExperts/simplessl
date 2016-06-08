@@ -1,0 +1,17 @@
+{
+    "name": "cmsexperts/simplessl",
+    "type": "typo3-cms-extension",
+    "description": "A easy tool to enforce SSL for any domain with TYPO3",
+    "license": ["GPLv2+"],
+    "keywords": ["TYPO3 CMS", "HTTPS", "Redirects", "SSL"],
+    "require": {
+        "php": ">5.5",
+        "typo3/cms": ">6.2.0 <9.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CMSExperts\\SimpleSSL\\": "Classes/"
+        }
+    }
+}
+
