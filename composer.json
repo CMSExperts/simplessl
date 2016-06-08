@@ -1,7 +1,7 @@
 {
     "name": "cmsexperts/simplessl",
     "type": "typo3-cms-extension",
-    "description": "A easy tool to enforce SSL for any domain with TYPO3",
+    "description": "An easy tool to enforce SSL for any domain with TYPO3",
     "license": ["GPLv2+"],
     "keywords": ["TYPO3 CMS", "HTTPS", "Redirects", "SSL"],
     "require": {
