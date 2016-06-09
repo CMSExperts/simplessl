@@ -47,7 +47,7 @@ class Redirector
         $databaseRecord = $this->getDatabaseConnection()->exec_SELECTgetSingleRow(
             'domainName,forcessl,redirectTo',
             'sys_domain',
-            'hidden=0 AND redirectTo="" AND forcessl=true AND (domainName='
+            'hidden=0 AND redirectTo="" AND forcessl=1 AND (domainName='
             . $this->getDatabaseConnection()->fullQuoteStr($domain, 'sys_domain')
             . ' OR domainName=' . $this->getDatabaseConnection()->fullQuoteStr($domain . '/', 'sys_domain')
             . ')'
