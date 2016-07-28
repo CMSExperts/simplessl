@@ -1,5 +1,5 @@
 <?php
-namespace CMSExperts\SimpleSSL;
+namespace CMSExperts\Simplessl;
 
 /*
  * This file is part of the TYPO3 CMS project.
